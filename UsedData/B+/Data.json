@@ -11,13 +11,13 @@
     "expandRatio": 0.1,
     "transparency": 0.8,
     "borderColor": [0,255,0],
-    "visiblePattern":10,
+    "visiblePattern":5,
     "yValue":[-0.0001,1.0]
   },
 
   "header": {
     "offset": [0,10],
-    "text": "The economic structure of provinces will change in 2018",
+    "text": "2013-2018 FORBES CHINA RICHEST TOP 10",
     "font": {"name": "Microsoft YaHei Light","form": 0,"size": 20},
     "color": [100,100,100]
   },
@@ -53,7 +53,7 @@
   "interpolator":{
     "FPD": 600,
     "FPS": 60,
-    "maxVelocity": 0.08,
+    "maxVelocity": 0.05,
     "sortMethod": "BubbleSort"
   },
   
@@ -65,8 +65,8 @@
   
   "bar":{
 	"trantransparency": [0.5,1],
-    "barPattern": ["1",""],
-    "barWidthRatio": [-1,-1],
+    "barPattern": ["1","","2",""],
+    "barWidthRatio": [-1,0.1,-1,-1],
 	"StackedBarTitle":["Farm","Forest","Stock","Fish"],
 
 	"0": {

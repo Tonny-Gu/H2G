@@ -8,8 +8,8 @@ public class BarBasicSkinStyle{
     public Color[] segColor = {Color.RED, Color.YELLOW, Color.BLUE};
     public Color frameColor = Color.GREEN;
     public Color fontColor = null;
-    public Font textFont = new Font("Microsoft YaHei Light", 1, 15);
-    public int textOffset = 50;
+    public Font textFont = new Font("Microsoft YaHei", Font.BOLD, 15);
+    public int textOffset = 40;
     public boolean isBarFilled = true;
     public boolean hasBarFrame = false;
     public double frameSize = 0.01;

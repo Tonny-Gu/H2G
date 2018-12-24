@@ -3,6 +3,14 @@
 This project has nothing right. 
 This project has nothing left. 
 
+## Important TIPS
+
+运行方法：将UsedData文件夹中的Data.json放置在根目录下，并运行ThreadManager.java。
+
+Data.json囊括了所有可定制成分，架构清晰，具有一般英语水平和理解能力的使用者可自行修改。
+
+更多详见项目GitHub地址https://github.com/Tonny-Gu/H2G
+
 ### Lock 
 | Name | Description | Status |
 | --- | --- | --- |
@@ -10,6 +18,9 @@ This project has nothing left.
 | Data.json | 所有数据json全部按照Data.json书写，不再修改 | Locked |
 
 ### TODO LIST
+
+项目结题。最后的Todo List留作纪念。
+
 项目尾期，按照重要性和难易度简单区分扫尾工作：
 
 | 工作内容                                                     | 重要性 | 复杂度 |
@@ -28,6 +39,7 @@ This project has nothing left.
 | --- | --- | --- |
 | All members | 举办第一次组会 | 12.7 |
 | All members | 举办第二次组会 | 12.14 |
+| All members | 答辩，结题 | 12.18 |
 
 # Data Structure
 

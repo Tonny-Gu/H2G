@@ -23,14 +23,18 @@ public class LegendDrawer {
         this.canvaStyle = canvaStyle;
         isStackedBar = canvaStyle.isStackedBar;
         rotated = canvaStyle.rotated;
-        keys = histogramData.keys;
+        if (!isStackedBar) {
+            keys = histogramData.keys;
+        } else {
+            ConfigLoader loader = new ConfigLoader("Data.json");
+            keys = loader.getStringArray("bar.StackedBarTitle");
+        }
         skin = canvaStyle.barSkin;
         elementNum = keys.length;
         iconSize = canvaStyle.iconSize;
         iconScale[1] = iconSize[1];
         font = canvaStyle.legendFont;
         Height = canvaStyle.legendHeight;
-        keys = histogramData.keys;
         for (int i = 0; i < elementNum; i++) {
             maxLegendBarWidth = Math.max(keys[i].length() * font.getSize(), maxLegendBarWidth);
         }
